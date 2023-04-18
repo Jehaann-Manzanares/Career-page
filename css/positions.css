@@ -1,0 +1,40 @@
+.positions{
+    overflow: hidden;
+}
+.positions .copy-container{
+    width: 30%;
+}
+.positions-container{
+    column-gap: 2em;
+    overflow-x: auto;
+    overflow-y: hidden;
+    padding: 2em;
+}
+.position{
+    min-width: 14.8em;
+    width: 14.8em;
+    max-width: 14.8em;
+    transition: all .3s ease-in-out ;
+}
+
+.position:hover{
+  transform: scale(1.1);
+  margin: 0 1em;
+}
+.position img{
+    max-width: 14.8em;
+    border-radius: 5px;
+    margin-bottom: .5em;
+}
+.position h3{
+
+    margin-bottom: .5em;
+}
+.position span{
+    display: inline-block;
+    margin-bottom: 1.5em;
+}
+
+.position .arrow-icon{
+    width:35px;
+}

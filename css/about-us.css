@@ -1,0 +1,8 @@
+.about-us{
+    background-image: url("/images/background.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.about-us .container{
+    flex-direction: row-reverse;
+}

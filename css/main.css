@@ -1,0 +1,8 @@
+main .img-container{
+    position: relative;
+}
+
+main .img-container img{
+    position: absolute;
+    bottom: -22%;
+}

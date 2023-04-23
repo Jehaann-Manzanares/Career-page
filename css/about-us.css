@@ -6,3 +6,9 @@
 .about-us .container{
     flex-direction: row-reverse;
 }
+
+@media screen and (max-width:720px){
+    .about-us .container{
+        flex-direction: column-reverse;
+    }
+}

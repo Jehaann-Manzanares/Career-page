@@ -1,3 +1,34 @@
 .logo{
     width:9em ;
 }
+
+.language-container{
+    flex-direction: column;
+    padding: 1.5em;
+    position: relative;
+    background-color: rgb(240, 240, 240);
+    width: 15%;
+    border-radius: var(--border-radius);
+    cursor: pointer;
+
+}
+
+.language-container:hover .languague-2{
+    display: block;
+}
+
+.language-container a{
+    padding: 1em 0;
+    position: absolute;
+    font-weight: bold;
+}
+.language-container a:first-child{
+    top: 0;
+}
+
+.language-container a:last-child{
+    top: 2.5em;
+    display: none;
+    border-bottom: 1px solid var(--primaryColor);
+    width: 100%;
+}

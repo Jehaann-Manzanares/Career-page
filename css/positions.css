@@ -9,8 +9,10 @@
     overflow-x: auto;
     overflow-y: hidden;
     padding: 2em;
+    border-radius: var(--border-radius);
 }
 .position{
+    padding: .5em;
     min-width: 14.8em;
     width: 14.8em;
     max-width: 14.8em;
@@ -20,11 +22,16 @@
 .position:hover{
   transform: scale(1.1);
   margin: 0 1em;
+  box-shadow: 10px 10px 34px 9px rgba(184,184,184,0.57);
+  -webkit-box-shadow: 10px 10px 34px 9px rgba(184,184,184,0.57);
+  -moz-box-shadow: 10px 10px 34px 9px rgba(184,184,184,0.57);
 }
 .position img{
     max-width: 14.8em;
     border-radius: 5px;
     margin-bottom: .5em;
+    object-fit: cover;
+    max-height: 10em;
 }
 .position h3{
 
@@ -37,4 +44,9 @@
 
 .position .arrow-icon{
     width:35px;
+}
+@media screen and (max-width:720px) {
+    .positions .copy-container{
+        width: 100%;
+    }
 }
